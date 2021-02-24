@@ -1,0 +1,155 @@
+VIDEOS
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Script;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: pink;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: blue;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: lightblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Kayla's Bake Shop</h1>
+  <p>Experiance the best of baking with Kayla!</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Gallery</a>
+  <a href="#">Recipes</a>
+  <a href="#">Order</a>
+  <a href="#">Contact</a>
+  <a href="#">Videos</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Todays Videos</h2>
+      <h5>January 6,2021</h5>
+      <img src="https://i.pinimg.com/originals/61/53/c7/6153c7ecf3861537d2bba501a1f780a5.jpg" alt=" cake">
+      <p>Cupcake Cake</p>
+      <p>By Cupcake addiction</p>
+    </div>
+    <div class="card">
+      <h2>Yesterdays Video</h2>
+      <h5>January 5, 2021</h5>
+      <img src="https://i.ytimg.com/vi/PrKk5EVxqGo/hqdefault.jpg" alt="cookies">
+      <p>How to bake cake layers</p>
+      <p>By King Arthur Flour</p>
+    </div>
+  </div>
+  
+   
+  </div>
+</div>
+
+<div class="footer">
+  <h2>SUPPORT // CONTACT // STAY CONNECTED</h2>
+   <p>    Subscribe- EMAIL HERE </h2>
+</div>
+
+</body>
+</html>

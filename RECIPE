@@ -1,0 +1,249 @@
+RECIPE
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Script;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: pink;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: blue;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: lightblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Kayla's Bake Blog</h1>
+  <p>Experiance the best of baking with Kayla!</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Gallery</a>
+  <a href="#">Recipes</a>
+  <a href="#">Order</a>
+  <a href="#">Contact</a>
+  <a href="#">Videos</a>
+
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Recipes</h2>
+      <h5>The best Chocolate Chip cookies</h5>
+      <img src="https://joyfoodsunshine.com/wp-content/uploads/2016/01/best-chocolate-chip-cookies-recipe-ever-no-chilling-1-e1549147195343.jpg" alt="cookies">
+      <p>1 cup butter, softened
+1 cup white sugar
+1 cup packed brown sugar
+2 eggs  
+2 teaspoons vanilla extract
+1 teaspoon baking soda
+2 teaspoons hot water
+½ teaspoon salt
+3 cups all-purpose flour
+2 cups semisweet chocolate chips
+1 cup chopped walnuts</p>
+      <p>Step 1
+Preheat oven to 350 degrees F (175 degrees C).
+
+ Step 2
+Cream together the butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla. Dissolve baking soda in hot water. Add to batter along with salt. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans.    
+
+ Step 3
+Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.</p>
+    </div>
+    <div class="card">
+      <h2>Banana Chocolate Chip Muffin with Cream Cheese Frosting</h2>
+      <h5>Sep 2, 2019</h5>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4475547.jpg&w=596&h=596&c=sc&poi=face&q=85" alt="muffins">
+      <p>1 ¼ cups all-purpose flour
+½ teaspoon baking soda
+¼ teaspoon baking powder
+1 pinch salt
+½ cup white sugar
+6 tablespoons lightly packed brown sugar
+¼ cup unsalted butter, softened
+1 egg  
+2 ripe bananas, mashed
+⅓ cup buttermilk
+½ cup chocolate chips, or to taste (Optional)
+Frosting:
+1 (3 ounce) package cream cheese, softened
+3 tablespoons butter, softened
+1 teaspoon vanilla extract
+2 cups confectioners' sugar, or more to taste</p>
+      <p>Step 1
+Preheat oven to 350 degrees F (175 degrees C). Line a muffin tin with paper liners.
+
+ Step 2
+Whisk flour, baking soda, baking powder, and salt together in a bowl.
+
+ Step 3
+Combine white sugar, brown sugar, and 1/4 cup butter in another bowl; beat with an electric mixer until creamy. Beat in egg. Mix in mashed bananas. Add flour mixture in 3 batches, alternating with buttermilk, stirring after each addition. Fold chocolate chips into the batter.
+
+ Step 4
+Spoon batter into the prepared muffin tin.
+
+ Step 5
+Bake in the preheated oven until a toothpick inserted in the center comes out clean, about 20 minutes. Cool cupcakes on a wire rack, about 30 minutes.
+
+ Step 6
+Beat cream cheese and 3 tablespoons butter in a bowl until smooth. Add vanilla extract. Beat in confectioners' sugar, 1 cup at a time, until frosting is smooth.
+
+ Step 7
+Spread frosting over cupcakes.
+
+</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>All Recipes</h2>
+   
+      <p>All recipes are made by us and recommended to be the very best! Feel free to sumbit your own recipes when you sign up. </p>
+    </div>
+    <div class="card">
+      <h3>Dulce de Leche Brownies</h3>
+     <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F419192.jpg&w=596&h=792&c=sc&poi=face&q=85">
+     <p>cooking spray
+¼ cup butter
+1 (1 ounce) square dark chocolate, chopped
+½ cup white sugar
+½ cup brown sugar
+½ cup all-purpose flour
+6 tablespoons unsweetened cocoa powder
+2 teaspoons vanilla extract
+¼ teaspoon salt
+2 eggs  
+½ cup dulce de leche
+2 tablespoons caramel dessert topping, or to taste</p>
+
+<p> Step 1
+Preheat the oven to 350 degrees F (175 degrees C). Grease an 8-inch square baking pan with cooking spray.
+
+ Step 2
+Place butter in the top of a double boiler over simmering water. Stir until melted. Add chocolate and stir until melted and combined. Remove from heat.
+
+ Step 3
+Stir white sugar, brown sugar, flour, cocoa powder, vanilla extract, and salt into the melted chocolate mixture. Stir in eggs with a spoon or spatula until just combined; try not to use more than 30 or 40 strokes.
+
+ Step 4
+Pour a little over 1/2 of the brownie batter into the prepared pan. Drop small spoonfuls of the dulce de leche evenly over the top. Gently drag a knife through the dulce de leche to create swirls. Cover with remaining brownie batter. Drizzle caramel on top in a swirling pattern.
+
+ Step 5
+Bake in the preheated oven until edges start pulling away from the sides of the pan, 25 to 30 minutes. Let the brownies cool completely before cutting them into squares.
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Insta- kayla._.bakes // // facebook- kaylabakes1098</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>SUPPORT // CONTACT // STAY CONNECTED</h2>
+  <p>    Subscribe- EMAIL HERE 
+  
+</div>
+
+</body>
+</html>

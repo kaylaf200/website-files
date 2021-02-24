@@ -1,0 +1,170 @@
+GALLERY
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Script;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: pink;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: blue;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: lightblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Kayla's Bake Shop</h1>
+  <p>Experiance the best of baking with Kayla!</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Gallery</a>
+  <a href="#">Recipes</a>
+  <a href="#">Order</a>
+  <a href="#">Contact</a>
+  <a href="#">Videos</a>
+
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Gallery</h2>
+      <h5>Our Creations Jan 3rd, 2021</h5>
+      <img src="https://s3-us-west-2.amazonaws.com/drupal-assets/eldo-reno/styles/collage_320x500/s3-files/images-collage/Cake-1-Vertical-320x500_1.jpg?itok=QAIKVOne" alt="Ultimate cake">
+      <p>Vanilla/Chocolate with strawberry topping</p>
+      <p>This cake was made for a wedding aniversery. It is half vanilla with chocolate filling. Milk chocolate is drizzled on each layer, topped with dozens of fresh strawberries dipped in milk and white chocolate.</p>
+    </div>
+    <div class="card">
+      <h2>Birthday cakes</h2>
+      <h5>Sweetest 16, Sep 2, 2019</h5>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/41X0BfaSAiL.jpg" alt="Ultimate birthday cake">
+      <p>Sweet 16 layer cake</p>
+      <p>This cake is a custom that was requested. It is vanilla wit strawberry filling on each layer. The theme of the party was a Hollywood theme so we made it a pastel pink color, and cut out stars and swirls to decorate. The sweet 16 girl loved her cake!</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+   
+      <p>My name is Kayla Flores I started loving baking ever since I was little. I am 16 years old, and trying to make a small buisness and do what I love! I sell custom made cakes and make videos to help others create their own goodies.</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+     <img src="https://www.prettymyparty.com/wp-content/uploads/2015/03/pink-elephant-baby-shower-dessert-table.jpg" alt="baby shower treats">
+     <p>We put together any event treat tables.</p>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Insta- kayla._.bakes // // facebook- kaylabakes1098</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>SUPPORT // CONTACT // STAY CONNECTED</h2>
+  <p>    Subscribe- EMAIL HERE 
+  
+</div>
+
+</body>
+</html>
